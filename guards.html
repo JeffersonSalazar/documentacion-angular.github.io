@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <title>12. Guardians</title>
+    <link rel="stylesheet" href="./sass/style.css" />
+</head>
+
+<body>
+    <!-- CABECERA -->
+    <header class="box_header">
+        <div class="box_logo">
+            <img src="./assets/images/angular.png" alt="angular">
+
+            <!-- <nav>
+                <ul>
+                    <li><a href="#">Orientacion</a></li>
+                    <li><a href="#">fghfg</a></li>
+                    <li><a href="#">Contactos</a></li>
+                </ul>
+            </nav> -->
+        </div>
+
+        <!-- <div class="box_socials">
+            <input type="search" name="search" placeholder="Buscar">
+        </div> -->
+    </header>
+
+
+    <!-- CONTENEDOR PRINCIPAL -->
+    <main>
+
+        <!-- MENU -->
+        <nav>
+            <ul>
+                <li><a href="crearPoryecto.html" target="_blank">01. Crear proyecto</a></li>
+                <li><a href="moduleRouting.html" target="_blank">02. Modulos</a></li>
+                <li><a href="componentes.html" target="_blank">03. Componentes</a></li>
+                <li><a href="enrutamiento.html" target="_blank">04. Routing</a></li>
+                <li><a href="leazyloading.html" target="_blank">05. Lazy loading</a></li>
+                <li><a href="http.html" target="_blank">06. Http auth mongo</a></li>
+                <li><a href="reactiveForms.html" target="_blank">07. ReactiveForms</a></li>
+                <li><a href="validationsReactive.html" target="_blank">08. ReactiveValidations</a></li>
+                <li><a href="interfaces.html" target="_blank">09. Interfaces</a></li>
+                <li><a href="services.html" target="_blank">10. Servicios</a></li>
+                <li><a href="tokenstorage.html" target="_blank">11. LocalStorage</a></li>
+                <li><a href="interceptors.html" target="_blank">13. Interceptores</a></li>
+            </ul>
+        </nav>
+
+        <!-- CONTENIDO -->
+        <div class="div_content">
+
+            <!-- token storage -->
+            <section class="main_content" id="modules">
+
+                <!-- descripcion de la sesion -->
+                <section class="box_description">
+                    <h2>12. Guardianes</h2>
+
+                    <div class="line_titles"></div>
+
+                    <p>
+                        Habra informacion delicada en nuestra aplicacion la cual
+                        deseamos proteger. Los <strong>guardianes</strong> nos
+                        permiten proteger <strong>componentes</strong> o
+                        <strong>modulos</strong> restringiendo el acceso a estos
+                        Conozcamos los 4 tipos de
+                        <strong>guardianes</strong> que podemos emplear
+                        <a href="#can" target="_blank">CanActivate</a>
+                        <a href="#" target="_blank">CanActivateChild</a>
+                        <a href="#" target="_blank">dfgdfgdfgdfgdf</a>
+                        y <a href="#load" target="_blank">CanLoad</a>
+                    </p>
+                </section>
+
+                <!-- 01. ingresar a la carpeta proyecto -->
+                <section class="sect_content">
+                    <h4>01. Ingresar a la carpeta proyecto (frontend)</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/carpeta/c02.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 02. creando el guardian canActivate -->
+                <section class="sect_content">
+                    <h4>02. Creando el guardian canActivate</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/guards/g01.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 03. estructura can.guard.ts -->
+                <section class="sect_content" id="clave">
+                    <h4>03. Estructura can.guard.ts</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/guards/g02.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 04. implementando CanActivate en el modulo -->
+                <section class="sect_content">
+                    <h4>04. Implementando CanActivate en el modulo</h4>
+
+                    <p>
+                        <a href="#clave" target="_blank">
+                            clave: CanGuard
+                        </a>
+                    </p>
+
+                    <div class="box_img">
+                        <img src="./assets/images/guards/g03.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 05. protegiendo un componente con CanActive -->
+                <section class="sect_content">
+                    <h4>05. Protegiendo un componente con CanActive</h4>
+
+                    <p>
+                        <a href="#clave" target="_blank">
+                            clave: CanActive
+                        </a>
+                        <a href="#clave" target="_blank">
+                            clave: CanGuard
+                        </a>
+                    </p>
+
+                    <div class="box_img">
+                        <img src="./assets/images/guards/g04.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 06. validando el codigo -->
+                <section class="sect_content">
+                    <h4>06. Validando el codigo</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/guards/g05.png" alt="modulo">
+                    </div>
+                </section>
+
+                <div class="line_endsession">
+                    ------------------------------ End ------------------------------
+                </div>
+
+                <!-- 01. creando el guardian canLoad -->
+                <section class="sect_content">
+                    <h4>01. Creando el guardian canLoad</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/guards/g13.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 02. estructura load.guard.ts -->
+                <section class="sect_content" id="clav">
+                    <h4>02. Estructura load.guard.ts</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/guards/g14.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 03. implementando CanLoad en el modulo -->
+                <section class="sect_content">
+                    <h4>03. Implementando CanLoad en el modulo</h4>
+
+                    <p>
+                        <a href="#clav" target="_blank">
+                            clave: LoadGuard
+                        </a>
+                    </p>
+
+                    <div class="box_img">
+                        <img src="./assets/images/guards/g15.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 05. protegiendo un modulo con CanLoad -->
+                <section class="sect_content">
+                    <h4>05. Protegiendo un modulo con CanLoad</h4>
+
+                    <p>
+                        <a href="#clav" target="_blank">
+                            clave: CanLoad
+                        </a>
+                        <a href="#clav" target="_blank">
+                            clave: LoadGuard
+                        </a>
+                    </p>
+
+                    <div class="box_img">
+                        <img src="./assets/images/guards/g16.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 06. validando el codigo -->
+                <section class="sect_content">
+                    <h4>06. Validando el codigo</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/guards/g17.png" alt="modulo">
+                    </div>
+                </section>
+
+                <div class="line_endsession">
+                    ------------------------------ End ------------------------------
+                </div>
+
+                <!-- 01. guardianes y servicios -->
+                <section class="sect_content">
+                    <h4>01. Guardianes y servicios (metodo existToken)</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/guards/g06.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 02. implementacion de localStorage y su metodo getItem-->
+                <section class="sect_content">
+                    <h4>02. Implementacion de localStorage y su metodo getItem</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/guards/g07.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 03. Condicional de localStorage -->
+                <section class="sect_content">
+                    <h4>03. Condicional de localStorage</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/guards/g08.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 04. implementacion del servicio -->
+                <section class="sect_content">
+                    <h4>04. Implementacion del servicio</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/guards/g09.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 05. Llamado del servicio y su metodo-->
+                <section class="sect_content">
+                    <h4>05. Llamado del servicio y su metodo</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/guards/g10.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 06. condicional de acceso -->
+                <section class="sect_content">
+                    <h4>06. Condicional de acceso</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/guards/g11.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 07. validando el codigo -->
+                <section class="sect_content">
+                    <h4>07. Validando el codigo</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/guards/g12.png" alt="modulo">
+                    </div>
+                </section>
+
+                <div class="line_endsession">End LocalStorage</div>
+            </section>
+        </div>
+    </main>
+</body>
+
+</html>

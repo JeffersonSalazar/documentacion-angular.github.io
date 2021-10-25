@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <title>10. Services</title>
+    <link rel="stylesheet" href="./sass/style.css" />
+</head>
+
+<body>
+    <!-- CABECERA -->
+    <header>
+        <img src="./assets/images/angular.png" alt="angular">
+    </header>
+
+    <!-- CONTENEDOR PRINCIPAL -->
+    <main>
+
+        <!-- MENU -->
+        <nav>
+            <ul>
+                <li><a href="crearPoryecto.html" target="_blank">01. Crear proyecto</a></li>
+                <li><a href="moduleRouting.html" target="_blank">02. Modulos</a></li>
+                <li><a href="componentes.html" target="_blank">03. Componentes</a></li>
+                <li><a href="enrutamiento.html" target="_blank">04. Routing</a></li>
+                <li><a href="leazyloading.html" target="_blank">05. Lazy loading</a></li>
+                <li><a href="http.html" target="_blank">06. Http auth mongo</a></li>
+                <li><a href="reactiveForms.html" target="_blank">07. ReactiveForms</a></li>
+                <li><a href="validationsReactive.html" target="_blank">08. ReactiveValidations</a></li>
+                <li><a href="interfaces.html" target="_blank">09. Interfaces</a></li>
+                <li><a href="tokenstorage.html" target="_blank">11. LocalStorage</a></li>
+                <li><a href="guards.html" target="_blank">12. Guardians</a></li>
+                <li><a href="interceptors.html" target="_blank">13. Interceptores</a></li>
+            </ul>
+        </nav>
+
+        <!-- CONTENIDO -->
+        <div class="div_content">
+
+            <!-- servicios -->
+            <div class="main_content">
+
+                <!-- descripcion de la sesion -->
+                <section class="box_description">
+                    <h2>10. Servicios</h2>
+
+                    <div class="line_titles"></div>
+
+                    <p>
+                        Los <strong>servicios</strong> son esenciales cuando de
+                        reutilizar codigo se trata, en estos podemos definir
+                        <strong>variables, objetos, arreglos o metodos</strong>
+                        que posteriormente podemos implementar en cualquier
+                        <strong>componente</strong> Ahora veamos como crear e implementar uno.
+                    </p>
+                </section>
+
+                <!-- 01. ingresar a la carpeta proyecto -->
+                <section class="sect_content" id="front">
+                    <h4>01. Ingresar a la carpeta proyecto (frontend)</h4>
+
+                    <p>
+                        <a href="crearPoryecto.html#proyec" target="_blank">
+                            carpeta proyecto frontend
+                        </a>
+                    </p>
+
+                    <div class="box_img">
+                        <img src="./assets/images/carpeta/c02.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 02. creando un servicio -->
+                <section class="sect_content">
+                    <h4>02. Creando un servicio</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/services/s02.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 03. estructura de un servicio -->
+                <section class="sect_content" id="ser">
+                    <h4>03. Estructura de un servicio</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/services/s03.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 04. importacion e inyeccion del servicio en un componente -->
+                <section class="sect_content" id="import">
+                    <h4>04. Importacion e inyeccion del servicio en un componente</h4>
+
+                    <p>
+                        <a href="#ser" target="_blank">
+                            clave DemoService
+                        </a>
+                    </p>
+
+                    <div class="box_img">
+                        <img src="./assets/images/services/s04.png" alt="modulo">
+                    </div>
+                </section>
+
+                <div class="line_endsession">
+                    ------------------------------ End ------------------------------
+                </div>
+
+                <!-- 01. como usar un servicio ejemplo 1 -->
+                <section class="sect_content" id="metodo">
+                    <h4>01. Como usar un servicio Ejemplo 1</h4>
+
+                    <p>
+                        <a href="interfaces.html#impor" target="_blank">import interface</a>
+                    </p>
+
+                    <div class="box_img">
+                        <img src="./assets/images/services/s05.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!--  02. implementacion en la logica -->
+                <section class="sect_content" id="variable">
+                    <h4>02. Implementacion en la logica</h4>
+
+                    <p>
+                        <a href="interfaces.html#impor" target="_blank">import interface</a>
+                        <a href="#import" target="_blank">import e inject services</a>
+                        <a href="#metodo" target="_blank">method getData</a>
+                    </p>
+
+                    <div class="box_img">
+                        <img src="./assets/images/services/s06.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!--  03. implementacion en la vista -->
+                <section class="sect_content">
+                    <h4>03. Implementacion en la vista</h4>
+
+                    <p>
+                        <a href="#variable" target="_blank">variable otherObjecto</a>
+                    </p>
+
+                    <div class="box_img">
+                        <img src="./assets/images/services/s07.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 04. abriendo el servidor de Angular -->
+                <section class="sect_content">
+                    <h4>04. Abriendo el servidor de Angular</h4>
+
+                    <p>
+                        <a href="#front" target="_blank">
+                            ingresar a la carpeta frontend
+                        </a>
+                    </p>
+
+                    <div class="box_img">
+                        <img src="./assets/images/carpeta/c03.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!--  05. validando el codigo -->
+                <section class="sect_content">
+                    <h4>05. Validando el codigo</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/services/s08.png" alt="modulo">
+                    </div>
+                </section>
+
+                <div class="line_endsession">End Services</div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

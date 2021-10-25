@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <title>08. Reactive validations</title>
+    <link rel="stylesheet" href="./sass/style.css" />
+</head>
+
+<body>
+    <!-- CABECERA -->
+    <header class="box_header">
+        <div class="box_logo">
+            <img src="./assets/images/angular.png" alt="angular">
+
+            <!-- <nav>
+                    <ul>
+                        <li><a href="#">Orientacion</a></li>
+                        <li><a href="#">fghfg</a></li>
+                        <li><a href="#">Contactos</a></li>
+                    </ul>
+                </nav> -->
+        </div>
+
+        <!-- <div class="box_socials">
+                <input type="search" name="search" placeholder="Buscar">
+            </div> -->
+    </header>
+
+    <!-- CONTENEDOR PRINCIPAL -->
+    <main>
+
+        <!-- MENU -->
+        <nav>
+            <ul>
+                <li><a href="crearPoryecto.html" target="_blank">01. Crear proyecto</a></li>
+                <li><a href="moduleRouting.html" target="_blank">02. Modulos</a></li>
+                <li><a href="componentes.html" target="_blank">03. Componentes</a></li>
+                <li><a href="enrutamiento.html" target="_blank">04. Routing</a></li>
+                <li><a href="leazyloading.html" target="_blank">05. Lazy louding</a></li>
+                <li><a href="http.html" target="_blank">06. Http auth mongo</a></li>
+                <li><a href="reactiveForms.html" target="_blank">07. ReactiveForms</a></li>
+                <li><a href="interfaces.html" target="_blank">09. Interfaces</a></li>
+                <li><a href="services.html" target="_blank">10. Servicios</a></li>
+                <li><a href="tokenstorage.html" target="_blank">11. LocalStorage</a></li>
+                <li><a href="guards.html" target="_blank">12. Guardians</a></li>
+                <li><a href="interceptors.html" target="_blank">13. Interceptores</a></li>
+            </ul>
+        </nav>
+
+        <!-- CONTENIDO -->
+        <div class="div_content">
+
+            <!-- validaciones sincronas para formularios reactivos -->
+            <section class="main_content">
+
+                <!-- descripcion de la sesion -->
+                <section class="box_description">
+                    <h2>08. Reactive validations</h2>
+
+                    <div class="line_titles"></div>
+
+                    <p>
+                        Las validaciones <strong>sincronas</strong> son aquellas
+                        que nosotros mismos definimos para asegurarnos que la informacion
+                        ingresada por el usuario en los campos <strong>inputs</strong>
+                        sea correcta, estas no requieren de comunicacion con fuentes
+                        externas como por ejemplo las bases de datos.
+                    </p>
+                </section>
+
+                <!-- 01. tabla de validacion -->
+                <section class="sect_content">
+                    <h4>01. Tabla de validacion</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/reactivalidations/r01.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 02. importacion de validators -->
+                <section class="sect_content">
+                    <h4>02. Importacion de Validators</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/reactivalidations/r02.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 03. implementacion de validators -->
+                <section class="sect_content">
+                    <h4>03. Implementacion de validators</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/reactivalidations/r03.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 04. expresiones regulares -->
+                <section class="sect_content" id="valid">
+                    <h4>04. Expresiones regulares para validators</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/reactivalidations/r04.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 05.  manejo de errores con getters -->
+                <section class="sect_content" id="get">
+                    <h4>05. Manejo de errores con getters</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/reactivalidations/r05.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 06.  Implementacion de un getter -->
+                <section class="sect_content">
+                    <h4>06. Implementacion de un getter</h4>
+
+                    <p>
+                        <a href="#get" target="_blank">
+                            getter errorName
+                        </a>
+                    </p>
+
+                    <div class="box_img">
+                        <img src="./assets/images/reactivalidations/r06.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 07.  definiendo diferentes tipos de errores -->
+                <section class="sect_content">
+                    <h4>07. Definiendo diferentes tipos de errores</h4>
+
+                    <p>
+                        <a href="#vali" target="_blank">
+                            Validators.required
+                        </a>
+                        <a href="#vali" target="_blank">
+                            Validators.pattern
+                        </a>
+                    </p>
+
+                    <div class="box_img">
+                        <img src="./assets/images/reactivalidations/r07.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 08.  validando el codigo -->
+                <section class="sect_content" id="components">
+                    <h4>08. Validando el codigo</h4>
+
+                    <p>
+                        <a href="#get" target="_blank">
+                            error: este campo es requerido
+                        </a>
+                    </p>
+
+                    <div class="box_img">
+                        <img src="./assets/images/reactivalidations/r08.png" alt="modulo">
+                    </div>
+                </section>
+
+                <div class="line_endsession">End ReactiveForms Validations</div>
+            </section>
+        </div>
+    </main>
+</body>
+
+</html>

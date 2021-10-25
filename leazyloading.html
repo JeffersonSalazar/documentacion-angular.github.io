@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <title>05. Lazy Loading</title>
+    <link rel="stylesheet" href="./sass/style.css" />
+</head>
+
+<body>
+    <!-- CABECERA -->
+    <header class="box_header">
+        <div class="box_logo">
+            <img src="./assets/images/angular.png" alt="angular">
+
+            <!-- <nav>
+                <ul>
+                    <li><a href="#">Orientacion</a></li>
+                    <li><a href="#">fghfg</a></li>
+                    <li><a href="#">Contactos</a></li>
+                </ul>
+            </nav> -->
+        </div>
+
+        <!-- <div class="box_socials">
+            <input type="search" name="search" placeholder="Buscar">
+        </div> -->
+    </header>
+
+
+    <!-- CONTENEDOR PRINCIPAL -->
+    <main>
+
+        <!-- MENU -->
+        <nav>
+            <ul>
+                <li><a href="crearPoryecto.html" target="_blank">01. Crear proyecto</a></li>
+                <li><a href="moduleRouting.html" target="_blank">02. Modulos</a></li>
+                <li><a href="componentes.html" target="_blank">03. Componentes</a></li>
+                <li><a href="enrutamiento.html" target="_blank">04. Routing</a></li>
+                <li><a href="http.html" target="_blank">06. Http auth mongo</a></li>
+                <li><a href="reactiveForms.html" target="_blank">07. ReactiveForms</a></li>
+                <li><a href="validationsReactive.html" target="_blank">08. ReactiveValidations</a></li>
+                <li><a href="interfaces.html" target="_blank">09. Interfaces</a></li>
+                <li><a href="services.html" target="_blank">10. Servicios</a></li>
+                <li><a href="tokenstorage.html" target="_blank">11. LocalStorage</a></li>
+                <li><a href="guards.html" target="_blank">12. Guardians</a></li>
+                <li><a href="interceptors.html" target="_blank">13. Interceptores</a></li>
+            </ul>
+        </nav>
+
+        <!-- CONTENIDO -->
+        <div class="div_content">
+
+            <!-- lazy loading -->
+            <section class="main_content" id="modules">
+
+                <!-- descripcion de la sesion -->
+                <section class="box_description">
+                    <h2>05. Lazy loading</h2>
+
+                    <div class="line_titles"></div>
+
+                    <p>
+                        En este apartado aprenderemos como y cuando implementar
+                        <strong>lazy loading</strong> conoceras su importacia
+                        y como este mejora el rendimiento de una aplicacion
+                        <strong>Angular</strong>
+                    </p>
+                </section>
+
+                <!-- 01. estructura de app-routing.module.ts -->
+                <section class="sect_content" id="ki">
+                    <h4>01. Estructura de app-routing.module.ts</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/lazy/l01.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 02. importacion e inyeccion de app-routing.module.ts -->
+                <section class="sect_content">
+                    <h4>02. Importacion e inyeccion de app-routing.module.ts</h4>
+
+                    <p>
+                        <a href="#ki" target="_blank">
+                            clave AppRoutingModule
+                        </a>
+                    </p>
+
+                    <div class="box_img">
+                        <img src="./assets/images/lazy/l02.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 03. definiendo url de acceso a un modulo -->
+                <section class="sect_content" id="url">
+                    <h4>03. Definiendo url de acceso a un modulo</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/lazy/l03.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 04. path de redireccionamiento -->
+                <section class="sect_content">
+                    <h4>04. Path de redireccionamiento</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/lazy/l04.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 05. Implementando el routing -->
+                <section class="sect_content">
+                    <h4>05. Implementando el routing</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/lazy/l05.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 06. Cambio en el routing por enlace y evento -->
+                <section class="sect_content">
+                    <h4>06. Cambio en el routing por enlace y evento</h4>
+
+                    <p>
+                        <a href="#url" target="_blank">
+                            path url auth
+                        </a>
+                    </p>
+
+                    <div class="box_img">
+                        <img src="./assets/images/lazy/l06.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 07. validando el codigo -->
+                <section class="sect_content">
+                    <h4>07. Validando el codigo</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/lazy/l07.png" alt="modulo">
+                    </div>
+                </section>
+
+                <div class="line_endsession">End Lazy Loading</div>
+            </section>
+        </div>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <title>14. Http crud mongo</title>
+    <link rel="stylesheet" href="./sass/style.css" />
+</head>
+
+<body>
+    <!-- CABECERA -->
+    <header class="box_header">
+        <div class="box_logo">
+            <img src="./assets/images/angular.png" alt="angular">
+
+            <!-- <nav>
+                <ul>
+                    <li><a href="#">Orientacion</a></li>
+                    <li><a href="#">fghfg</a></li>
+                    <li><a href="#">Contactos</a></li>
+                </ul>
+            </nav> -->
+        </div>
+
+        <!-- <div class="box_socials">
+            <input type="search" name="search" placeholder="Buscar">
+        </div> -->
+    </header>
+
+
+    <!-- CONTENEDOR PRINCIPAL -->
+    <main>
+
+        <!-- MENU -->
+        <nav>
+            <ul>
+                <li><a href="crearPoryecto.html" target="_blank">01. Crear proyecto</a></li>
+                <li><a href="moduleRouting.html" target="_blank">02. Modulos</a></li>
+                <li><a href="componentes.html" target="_blank">03. Componentes</a></li>
+                <li><a href="enrutamiento.html" target="_blank">04. Routing</a></li>
+                <li><a href="leazyloading.html" target="_blank">05. Lazy loading</a></li>
+                <li><a href="reactiveForms.html" target="_blank">07. ReactiveForms</a></li>
+                <li><a href="validationsReactive.html" target="_blank">08. ReactiveValidations</a></li>
+                <li><a href="interfaces.html" target="_blank">09. Interfaces</a></li>
+                <li><a href="services.html" target="_blank">10. Servicios</a></li>
+                <li><a href="tokenstorage.html" target="_blank">11. LocalStorage</a></li>
+                <li><a href="guards.html" target="_blank">12. Guardians</a></li>
+                <li><a href="interceptors.html" target="_blank">13. Interceptores</a></li>
+            </ul>
+        </nav>
+
+        <!-- CONTENIDO -->
+        <div class="div_content">
+
+            <!-- HTTP Auth -->
+            <section class="main_content" id="modules">
+
+                <!-- descripcion de la sesion -->
+                <section class="box_description">
+                    <h2>14. HTTP Crud</h2>
+
+                    <div class="line_titles"></div>
+
+                    <p>
+                        El <strong>protocolo HTTP</strong> le permite <strong>Angular</strong>
+                        conectarse a una <strong>API Rest</strong> este nos ofrece los
+                        metodos <strong>post get delete y update</strong> para interactuar
+                        con la misma. En este apartado aprenderemos sobre
+                        <strong>HttpClientModule y HttpClient</strong> crearemos los
+                        <strong>endPoints</strong> <a href="#signup" target="_blank">signupUser</a>
+                        y <a href="#signin" target="_blank">signinUser</a> a los que implementaremos
+                        una <strong>interface</strong> haciendo uso de los <strong>servicios</strong>
+                    </p>
+                </section>
+
+                <!-- 01. HttpClientModule -->
+                <section class="sect_content">
+                    <h4>
+                        01. Importacion de HttpClientModule
+                    </h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/http/h01.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 02. HttpClient -->
+                <section class="sect_content">
+                    <h4>
+                        02. Importacion de HttpClient en un servicio
+                    </h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/http/h02.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 03. importacion de la interface -->
+                <section class="sect_content">
+                    <h4>
+                        03. Importacion de la interface
+                    </h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/http/h03.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 04. url de la api -->
+                <section class="sect_content">
+                    <h4>04. Url de nuestra Api</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/http/h04.png" alt="modulo">
+                    </div>
+                </section>
+
+                <div class="line_endsession">
+                    ------------------------------ End ------------------------------
+                </div>
+
+                <!-- 01. metodo signupUser -->
+                <section class="sect_content" id="signup">
+                    <h4>01. metodo signupUser</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/http/h05.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 02. metodo signupUser e implementacion de post -->
+                <section class="sect_content">
+                    <h4>02. Metodo signupUser e implementacion de POST</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/http/h06.png" alt="modulo">
+                    </div>
+                </section>
+
+                <div class="line_endsession">
+                    ------------------------------ End ------------------------------
+                </div>
+
+                <!-- 01. importacion e inyeccion del servicio -->
+                <section class="sect_content">
+                    <h4>01. importacion e inyeccion del servicio</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/http/h09.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 02. llamado del servicio y su metodo  -->
+                <section class="sect_content">
+                    <h4>02. Llamado del servicio y su metodo signupUser </h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/http/h10.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 03. Configuracion de la respuesta -->
+                <section class="sect_content">
+                    <h4>03. Configuracion de la respuesta</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/http/h11.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 04. validando el codigo -->
+                <section class="sect_content">
+                    <h4>04. Validando el codigo</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/http/h12.png" alt="modulo">
+                    </div>
+                </section>
+
+                <div class="line_endsession">
+                    ------------------------------ End ------------------------------
+                </div>
+
+                <!-- 01. metodo signinUser -->
+                <section class="sect_content" id="signin">
+                    <h4>01. Metodo signinUser</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/http/h07.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 02. metodo signinUser y post -->
+                <section class="sect_content">
+                    <h4>02. Metodo signinUser e implementacion de POST</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/http/h08.png" alt="modulo">
+                    </div>
+                </section>
+
+                <div class="line_endsession">
+                    ------------------------------ End ------------------------------
+                </div>
+
+                <!-- 01. Llamado del servicio y su metodo signinUser -->
+                <section class="sect_content">
+                    <h4>01. Llamado del servicio y su metodo signinUser</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/http/h13.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 02. configuracion de la respuesta -->
+                <section class="sect_content">
+                    <h4>02. Configuracion de la respuesta</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/http/h14.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 03. validando en el codigo -->
+                <section class="sect_content">
+                    <h4>03. Validando en el codigo</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/http/h15.png" alt="modulo">
+                    </div>
+                </section>
+
+                <div class="line_endsession">End Http Auth</div>
+            </section>
+        </div>
+    </main>
+</body>
+
+</html>

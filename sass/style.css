@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*  
+    CABECERA: 
+*/
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #5775D5;
+  color: #FFF;
+  width: 100%;
+  height: 60px;
+  -webkit-box-shadow: 0 0 12px 0 #00000066;
+          box-shadow: 0 0 12px 0 #00000066;
+}
+
+header .box_logo img {
+  height: 40px;
+}
+
+header .box_socials input {
+  color: #444;
+  outline: none;
+  border: none;
+  border-radius: 100px;
+  font-size: 1rem;
+  width: 180px;
+  max-width: 240px;
+  margin-left: 8px;
+  padding: 8px 16px;
+  -webkit-transition: width .3s ease;
+  transition: width .3s ease;
+}
+
+header .box_socials input:focus {
+  width: 220px;
+}
+
+/*  
+    CONTENEDOR PRINCIPAL: 
+*/
+main {
+  /* min-height: 100vh; */
+  /* 
+        MENU: 
+    */
+  /* 
+        CONTENIDO: 
+    */
+}
+
+@media (max-width: 999px) {
+  main {
+    padding: 60px 10px 0;
+  }
+}
+
+@media (min-width: 1000px) {
+  main {
+    position: relative;
+    left: 230px;
+    width: calc(100% - 230px);
+    /* min-height: 100vh; */
+    padding: 60px 40px 0;
+  }
+}
+
+main nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 8;
+  background-color: #F8F9FA;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 230px;
+}
+
+main nav ul li {
+  list-style: none;
+  padding: 6px 0;
+}
+
+main nav ul li a {
+  text-decoration: none;
+  color: #5c5b5b;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+main nav ul li a:hover {
+  color: #5775D5;
+}
+
+main .div_content .main_content {
+  color: #5c5b5b;
+}
+
+main .div_content .main_content .box_description h2 {
+  font-size: 2.8rem;
+  margin-top: 40px;
+}
+
+main .div_content .main_content .box_description .line_titles {
+  border-top: 5px solid #5775D5;
+  width: 170px;
+}
+
+main .div_content .main_content .box_description p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin: 20px 0 60px;
+}
+
+main .div_content .main_content .box_description p strong {
+  color: #5775D5;
+}
+
+main .div_content .main_content .box_description p a {
+  text-decoration: none;
+  font-weight: 500;
+  background-color: #F8F9FA;
+  color: #55BD9C;
+  border: 1px solid #CCC;
+  border-radius: 2px;
+  padding: 0 10px;
+}
+
+main .div_content .main_content .box_description p a:hover {
+  color: #CCC;
+}
+
+main .div_content .main_content .sect_content h4 {
+  font-size: 2rem;
+  margin: 20px 0;
+}
+
+main .div_content .main_content .sect_content p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+main .div_content .main_content .sect_content p strong {
+  color: #5775D5;
+}
+
+main .div_content .main_content .sect_content p a {
+  text-decoration: none;
+  font-weight: 500;
+  background-color: #F8F9FA;
+  color: #55BD9C;
+  border: 1px solid #CCC;
+  border-radius: 2px;
+  padding: 0 10px;
+  margin-left: 10px;
+}
+
+main .div_content .main_content .sect_content p a:hover {
+  color: #CCC;
+}
+
+main .div_content .main_content .sect_content ol {
+  padding: 20px;
+}
+
+main .div_content .main_content .sect_content ol li {
+  list-style: none;
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+}
+
+main .div_content .main_content .sect_content .box_img {
+  text-align: center;
+  width: 100%;
+}
+
+main .div_content .main_content .sect_content .box_img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-box-shadow: 0 0 12px 0 #00000066;
+          box-shadow: 0 0 12px 0 #00000066;
+}
+
+@media (max-width: 699px) {
+  main .div_content .main_content .sect_content .box_img img {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 700px) {
+  main .div_content .main_content .sect_content .box_img img {
+    max-height: 400px;
+    margin: 40px 0;
+  }
+}
+
+main .div_content .main_content .line_endsession {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #CCC;
+  margin: 60px 0;
+}
+/*# sourceMappingURL=style.css.map */

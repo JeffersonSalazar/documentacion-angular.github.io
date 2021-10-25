@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <title>03. Componentes</title>
+    <link rel="stylesheet" href="./sass/style.css" />
+</head>
+
+<body>
+    <!-- CABECERA -->
+    <header class="box_header">
+        <div class="box_logo">
+            <img src="./assets/images/angular.png" alt="angular">
+
+            <!-- <nav>
+                <ul>
+                    <li><a href="#">Orientacion</a></li>
+                    <li><a href="#">fghfg</a></li>
+                    <li><a href="#">Contactos</a></li>
+                </ul>
+            </nav> -->
+        </div>
+
+        <!-- <div class="box_socials">
+            <input type="search" name="search" placeholder="Buscar">
+        </div> -->
+    </header>
+
+
+    <!-- CONTENEDOR PRINCIPAL -->
+    <main>
+
+        <!-- MENU -->
+        <nav>
+            <ul>
+                <li><a href="crearPoryecto.html" target="_blank">01. Crear proyecto</a></li>
+                <li><a href="moduleRouting.html" target="_blank">02. Modulos</a></li>
+                <li><a href="enrutamiento.html" target="_blank">04. Routing</a></li>
+                <li><a href="leazyloading.html" target="_blank">05. Lazy Loading</a></li>
+                <li><a href="http.html" target="_blank">06. Http auth mongo</a></li>
+                <li><a href="reactiveForms.html" target="_blank">07. ReactiveForms</a></li>
+                <li><a href="validationsReactive.html" target="_blank">08. ReactiveValidations</a></li>
+                <li><a href="interfaces.html" target="_blank">09. Interfaces</a></li>
+                <li><a href="services.html" target="_blank">10. Servicios</a></li>
+                <li><a href="tokenstorage.html" target="_blank">11. LocalStorage</a></li>
+                <li><a href="guards.html" target="_blank">12. Guardians</a></li>
+                <li><a href="interceptors.html" target="_blank">13. Interceptores</a></li>
+            </ul>
+        </nav>
+
+        <!-- CONTENIDO -->
+        <div class="div_content">
+
+            <!-- componentes -->
+            <section class="main_content" id="modules">
+
+                <!-- descripcion de la sesion -->
+                <section class="box_description">
+                    <h2>03. Componentes</h2>
+
+                    <div class="line_titles"></div>
+
+                    <p>
+                        En este apartado aprenderas a crear un <strong>componente</strong>
+                        para un <strong>modulo personalizado</strong> sabras como
+                        <strong>importar e inyectar</strong> su <strong>clave</strong>
+                        (identificador del archivo) de la manera correcta
+                        para finalmente probar el codigo.
+                    </p>
+                </section>
+
+                <!-- 01. ingresar a la carpeta proyecto -->
+                <section class="sect_content" id="front">
+                    <h4>01. Ingresar a la carpeta proyecto (frontend)</h4>
+
+                    <p>
+                        <a href="crearPoryecto.html#proyec" target="_blank">
+                            carpeta proyecto frontend
+                        </a>
+                    </p>
+
+                    <div class="box_img">
+                        <img src="./assets/images/carpeta/c02.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 02. creando un componente -->
+                <section class="sect_content" id="crea">
+                    <h4>02. Creando un componente </h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/componentes/c01.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 03. archivos creados -->
+                <section class="sect_content" id="arch">
+                    <h4>03. Archivos creados</h4>
+
+                    <p>
+                        <a href="#crea" target="_blank">
+                            crear un componente
+                        </a>
+                    </p>
+
+                    <div class="box_img">
+                        <img src="./assets/images/componentes/c02.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 04. estructura de home.component.ts -->
+                <section class="sect_content" id="key">
+                    <h4>04. Estructura de home.component.ts</h4>
+
+                    <p>
+                        <a href="#arch" target="_blank">
+                            archivos creados
+                        </a>
+                    </p>
+
+                    <div class="box_img">
+                        <img src="./assets/images/componentes/c03.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 05. actualizacion de auth.module.ts -->
+                <section class="sect_content" id="inyeccion">
+                    <h4>05. Actualizacion de auth.module.ts</h4>
+
+                    <p>
+                        <a href="#key" target="_blank">
+                            clave HomeComponent
+                        </a>
+                    </p>
+
+                    <div class="box_img">
+                        <img src="./assets/images/componentes/c04.png" alt="modulo">
+                    </div>
+                </section>
+
+                <div class="line_endsession">
+                    ------------------------------ End ------------------------------
+                </div>
+
+                <!-- 01. implementando el home.component.html -->
+                <section class="sect_content" id="home">
+                    <h4>01. Implementando el home.component.html</h4>
+
+                    <p>
+                        <a href="#key" target="_blank">
+                            selector app-home
+                        </a>
+                    </p>
+
+                    <div class="box_img">
+                        <img src="./assets/images/componentes/c05.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 02. abriendo el servidor angular -->
+                <section class="sect_content">
+                    <h4>02. Abriendo el servidor Angular</h4>
+
+                    <p>
+                        <a href="#front" target="_blank">
+                            ingresar a la carpeta frontend
+                        </a>
+                    </p>
+
+                    <div class="box_img">
+                        <img src="./assets/images/carpeta/c03.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 03. error elemento desconocido -->
+                <section class="sect_content">
+                    <h4>03. Error elemento desconocido</h4>
+
+
+                    <div class="box_img">
+                        <img src="./assets/images/componentes/c06.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 04. importacion del auth.module.ts -->
+                <section class="sect_content">
+                    <h4>04. Importacion del auth.module.ts</h4>
+
+
+                    <div class="box_img">
+                        <img src="./assets/images/componentes/c07.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 05. validando el codigo -->
+                <section class="sect_content">
+                    <h4>05. Validando el codigo</h4>
+
+                    <p>
+                        <a href="#home" target="_blank">
+                            texto home works!
+                        </a>
+                    </p>
+
+                    <div class="box_img">
+                        <img src="./assets/images/componentes/c08.png" alt="modulo">
+                    </div>
+                </section>
+
+                <div class="line_endsession">End Components</div>
+            </section>
+        </div>
+    </main>
+</body>
+
+</html>
