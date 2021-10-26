@@ -51,25 +51,24 @@ header {
         };
     };
 
-    .box_socials {
+    .box_icon_menu {
+        cursor: pointer;
 
-        input {
-            color: #444;
-            outline: none;
-            border: none;
-            border-radius: 100px;
-            font-size: 1rem;
-            width: 180px;
-            max-width: 240px;
-            margin-left: 8px;
-            padding: 8px 16px;
-            transition: width .3s ease;
+        .line_icon_menu {
+            display: inline-block;
+            background-color: #fff;
+            width: 30px;
+            height: 2px;    
 
-            &:focus {
-                width: 220px;
-            }
-        }
-    }
+            &::before {
+                content: '';
+                display: inline-block;
+                background-color: #fff;
+                width: 30px;
+                height: 2px;
+            };
+        };
+    };
 };
 
 

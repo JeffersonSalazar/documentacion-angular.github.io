@@ -35,22 +35,23 @@ header .box_logo img {
   height: 40px;
 }
 
-header .box_socials input {
-  color: #444;
-  outline: none;
-  border: none;
-  border-radius: 100px;
-  font-size: 1rem;
-  width: 180px;
-  max-width: 240px;
-  margin-left: 8px;
-  padding: 8px 16px;
-  -webkit-transition: width .3s ease;
-  transition: width .3s ease;
+header .box_icon_menu {
+  cursor: pointer;
 }
 
-header .box_socials input:focus {
-  width: 220px;
+header .box_icon_menu .line_icon_menu {
+  display: inline-block;
+  background-color: #fff;
+  width: 30px;
+  height: 2px;
+}
+
+header .box_icon_menu .line_icon_menu::before {
+  content: '';
+  display: inline-block;
+  background-color: #fff;
+  width: 30px;
+  height: 2px;
 }
 
 /*  
