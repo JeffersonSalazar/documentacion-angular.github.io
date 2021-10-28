@@ -109,6 +109,23 @@ main {
         justify-content: center;
         align-items: center;
         width: 230px;
+        transition: transform .3s ease-in-out;
+
+        @media (max-width: 599px) {
+            transform: translateX(-1000px);
+
+            &.open_menu {
+                transform: translateX(0px);
+            };
+        };
+
+        // @media (min-width: 600px) {
+        //     transform: translateX(0px);
+
+        //     &.close_menu {
+        //         transform: translateX(-1000px);
+        //     };
+        // };
 
         ul {
             
