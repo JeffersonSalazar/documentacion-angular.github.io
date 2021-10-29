@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <title>18. Comunicacion</title>
+    <link rel="stylesheet" href="./sass/style.css" />
+</head>
+
+<body>
+    <!-- CABECERA -->
+    <header class="box_header">
+        <div class="box_logo">
+            <img src="./assets/images/angular.png" alt="angular">
+        </div>
+
+        <div class="box_icon_menu" id="icon_menu">
+            <span class="line_icon_menu"></span>
+        </div>
+    </header>
+
+
+    <!-- CONTENEDOR PRINCIPAL -->
+    <main>
+
+        <!-- MENU -->
+        <nav id="menu_nav">
+            <ul>
+                <li><a href="crearPoryecto.html" target="_blank">01. Crear proyecto</a></li>
+                <li><a href="moduleRouting.html" target="_blank">02. Modulos</a></li>
+                <li><a href="enrutamiento.html" target="_blank">04. Routing</a></li>
+                <li><a href="leazyloading.html" target="_blank">05. Lazy Loading</a></li>
+                <li><a href="http.html" target="_blank">06. Http auth mongo</a></li>
+                <li><a href="reactiveForms.html" target="_blank">07. ReactiveForms</a></li>
+                <li><a href="validationsReactive.html" target="_blank">08. ReactiveValidations</a></li>
+                <li><a href="interfaces.html" target="_blank">09. Interfaces</a></li>
+                <li><a href="services.html" target="_blank">10. Servicios</a></li>
+                <li><a href="tokenstorage.html" target="_blank">11. LocalStorage</a></li>
+                <li><a href="guards.html" target="_blank">12. Guardians</a></li>
+                <li><a href="interceptors.html" target="_blank">13. Interceptores</a></li>
+            </ul>
+        </nav>
+
+        <!-- CONTENIDO -->
+        <div class="div_content">
+
+            <!-- comunicacion -->
+            <section class="main_content" id="modules">
+
+                <!-- descripcion de la sesion -->
+                <section class="box_description">
+                    <h2>18. Comunicacion</h2>
+
+                    <div class="line_titles"></div>
+
+                    <p>
+                        Aprendamos a comunicarnos entre
+                        <strong>componentes</strong> haciendo uso de <br>
+                        <a href="#sele" target="_blank">@ViewChild</a> (permite
+                        modificar elementos de un componentHijo desde un componentPadre)
+                        <a href="#input" target="_blank">@Input</a> (permite
+                        reutilizar estructuras <strong>HTML</strong> definiendo la logica
+                        en el componentPadre) <a href="#out" target="_blank">@Output y emitter</a>
+                        (permite ejecutar metodos de un compHijo desde un compPadre)
+                    </p>
+                </section>
+
+                <!-- 01. definiendo una variable en el componente hijo -->
+                <section class="sect_content" id="sele">
+                    <h4>01. Definiendo una variable en el componente hijo</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/comunicacion/c01.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 02. implementando el componente hijo en el componente padre -->
+                <section class="sect_content" id="btn">
+                    <h4>02. Implementando el componente hijo en el componente padre</h4>
+
+                    <p>
+                        <a href="#sele" target="_blank">
+                            selector: app-hijo
+                        </a>
+                    </p>
+
+                    <div class="box_img">
+                        <img src="./assets/images/comunicacion/c02.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 03. implementando en la logica @viewChild() -->
+                <section class="sect_content">
+                    <h4>03. Implementando en la logica del padre @viewChild()</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/comunicacion/c03.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 04. importando en la logica -->
+                <section class="sect_content">
+                    <h4>04. importando en la logica del padre el componente hijo</h4>
+
+                    <p>
+                        <a href="#sele" target="_blank">
+                            clave: HijoComponent
+                        </a>
+                    </p>
+
+                    <div class="box_img">
+                        <img src="./assets/images/comunicacion/c04.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 05. ejecutando el metodo definido en el componente padre -->
+                <section class="sect_content">
+                    <h4>05. Ejecutando el metodo definido en el componente padre</h4>
+
+                    <p>
+                        <a href="#btn" target="_blank">
+                            metodo: btn_padre
+                        </a>
+                        <a href="#sele" target="_blank">
+                            variable: titulo
+                        </a>
+                    </p>
+
+                    <div class="box_img">
+                        <img src="./assets/images/comunicacion/c05.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 06. validando el codigo -->
+                <section class="sect_content">
+                    <h4>06. Validando el codigo</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/comunicacion/c06.png" alt="modulo">
+                    </div>
+                </section>
+
+                <div class="line_endsession">
+                    -------------------- End --------------------
+                </div>
+
+                <!-- 01. implementando el @input -->
+                <section class="sect_content" id="inpu">
+                    <h4>01. Implementando el @input en el componente hijo</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/comunicacion/r01.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 02. implementando el servicio en el componente padre -->
+                <section class="sect_content">
+                    <h4>02. Implementando el servicio en el componente padre</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/comunicacion/r02.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 03. implementando el schema en el componente padre -->
+                <section class="sect_content" id="var">
+                    <h4>03. Implementando el schema en el componente padre</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/comunicacion/r03.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 04. llamado del servicio y su metodo -->
+                <section class="sect_content">
+                    <h4>04. Llamado del servicio y su metodo</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/comunicacion/r04.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 05. implementando el componente hijo en el componente padre -->
+                <section class="sect_content">
+                    <h4>05. Implementando el componente hijo en el componente padre</h4>
+
+                    <p>
+                        <a href="#var" target="_blank">
+                            variable: users
+                        </a>
+                        <a href="#input" target="_blank">
+                            @input: letFromChild
+                        </a>
+                    </p>
+
+                    <div class="box_img">
+                        <img src="./assets/images/comunicacion/r05.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 06. validando el codigo -->
+                <section class="sect_content">
+                    <h4>06. Validando el codigo</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/comunicacion/r06.png" alt="modulo">
+                    </div>
+                </section>
+
+                <div class="line_endsession">
+                    -------------------- End --------------------
+                </div>
+
+                <!-- 01. implementando el @input -->
+                <section class="sect_content" id="out">
+                    <h4>01. Implementando el @output y emitter en el componente hijo</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/comunicacion/e01.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 02. implementando el schema de datos -->
+                <section class="sect_content">
+                    <h4>02. Implementando el schema de datos</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/comunicacion/e02.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 03. ejecutando el metodo del evento definido en el componente hijo -->
+                <section class="sect_content">
+                    <h4>03. Ejecutando el metodo del evento definido en el componente hijo</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/comunicacion/e03.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 04. implementando el componente hijo en el componente padre -->
+                <section class="sect_content">
+                    <h4>04. Implementando el componente hijo en el componente padre</h4>
+
+                    <p>
+                        <a href="#out" target="_blank">
+                            selector: app-hijo
+                        </a>
+                    </p>
+
+                    <div class="box_img">
+                        <img src="./assets/images/comunicacion/e04.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 05. validando el codigo -->
+                <section class="sect_content">
+                    <h4>05. Validando el codigo</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/comunicacion/e05.png" alt="modulo">
+                    </div>
+                </section>
+
+                <div class="line_endsession">End Components</div>
+            </section>
+        </div>
+    </main>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
