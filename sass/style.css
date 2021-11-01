@@ -107,7 +107,7 @@ main nav {
   transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
 }
 
-@media (max-width: 599px) {
+@media (max-width: 649px) {
   main nav {
     -webkit-transform: translateX(-1000px);
             transform: translateX(-1000px);

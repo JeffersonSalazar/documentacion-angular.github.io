@@ -111,7 +111,7 @@ main {
         width: 230px;
         transition: transform .3s ease-in-out;
 
-        @media (max-width: 599px) {
+        @media (max-width: 649px) {
             transform: translateX(-1000px);
 
             &.open_menu {
