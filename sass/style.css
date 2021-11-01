@@ -112,8 +112,16 @@ main nav {
   }
 }
 
-main nav ul {
-  margin-top: 400px;
+@media (min-width: 650px) {
+  main nav ul {
+    margin-top: 250px;
+  }
+}
+
+@media (max-width: 649px) {
+  main nav ul {
+    margin-top: 400px;
+  }
 }
 
 main nav ul li {
