@@ -112,15 +112,24 @@ main nav {
   }
 }
 
-@media (min-width: 650px) {
+@media (max-width: 649px) {
   main nav ul {
-    margin-top: 250px;
+    margin-top: 360px;
+    background-color: rgba(0, 255, 21, 0.294);
   }
 }
 
-@media (max-width: 649px) {
+@media (max-width: 649px) and (max-height: 299px) {
   main nav ul {
-    margin-top: 400px;
+    margin-top: 580px;
+    background-color: rgba(255, 0, 0, 0.445);
+  }
+}
+
+@media (min-width: 650px) {
+  main nav ul {
+    margin-top: 210px;
+    background-color: rgba(0, 0, 255, 0.274);
   }
 }
 

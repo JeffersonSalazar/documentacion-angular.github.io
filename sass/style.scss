@@ -129,14 +129,30 @@ main {
         // };
 
         ul {
-            @media (min-width: 650px) {
-                margin-top: 250px;
+            @media (max-width: 649px) { // <======
+                margin-top: 360px;
+                background-color: rgba(0, 255, 21, 0.294);
+                
+                @media (max-height: 299px) { // <======
+                    margin-top: 580px;
+                    background-color: rgba(255, 0, 0, 0.445);
+                };
+
+                // @media (min-height: 300px) { // =====>
+                //     margin-top: 380px;
+                //     background-color: rgba(255, 255, 0, 0.315);
+                // };
             };
 
-            @media (max-width: 649px) {
-                margin-top: 400px;
+            @media (min-width: 650px) { // =====>
+                margin-top: 210px;
+                background-color: rgba(0, 0, 255, 0.274);
+                
+                // @media (min-height: 511px) {
+                //     margin-top: 210px;
+                // };
             };
-            
+
             li {
                 list-style: none;
                 padding: 6px 0;
