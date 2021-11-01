@@ -67,19 +67,12 @@ main {
     */
 }
 
-@media (max-width: 999px) {
-  main {
-    padding: 60px 10px 0;
-  }
-}
-
 @media (min-width: 1000px) {
   main {
     position: relative;
     left: 230px;
     width: calc(100% - 230px);
     /* min-height: 100vh; */
-    padding: 60px 40px 0;
   }
 }
 
@@ -117,6 +110,10 @@ main nav {
     -webkit-transform: translateX(0px);
             transform: translateX(0px);
   }
+}
+
+main nav ul {
+  margin-top: 400px;
 }
 
 main nav ul li {
