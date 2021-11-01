@@ -101,6 +101,7 @@ main nav {
       -ms-flex-align: center;
           align-items: center;
   width: 230px;
+  overflow-y: scroll;
   -webkit-transition: -webkit-transform .3s ease-in-out;
   transition: -webkit-transform .3s ease-in-out;
   transition: transform .3s ease-in-out;

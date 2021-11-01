@@ -109,6 +109,7 @@ main {
         justify-content: center;
         align-items: center;
         width: 230px;
+        overflow-y: scroll;
         transition: transform .3s ease-in-out;
 
         @media (max-width: 649px) {
