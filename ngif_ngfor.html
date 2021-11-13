@@ -6,7 +6,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
-    <title>18. Interpolacion & Binding</title>
+    <title>22. NgIf y NgFor</title>
     <link rel="stylesheet" href="./sass/style.css" />
 </head>
 
@@ -23,6 +23,7 @@
             <span class="line_icon_menu"></span>
         </div>
     </header>
+
 
     <!-- CONTENEDOR PRINCIPAL -->
     <main>
@@ -47,7 +48,7 @@
                 <li><a href="template_forms.html" target="_blank">15. Template forms</a></li>
                 <li><a href="template_validations.html" target="_blank">16. Template validations</a></li>
                 <li><a href="clases.html" target="_blank">17. Clases</a></li>
-                <li><a href="input_output.html" target="_blank">19. @Input y @Output</a></li>
+                <li><a href="interpolacion.html" target="_blank">18. Interpolacion</a></li>
                 <li><a href="pipes.html" target="_blank">20. Pipes</a></li>
                 <li><a href="sass.html" target="_blank">21. Sass</a></li>
             </ul>
@@ -56,31 +57,29 @@
         <!-- CONTENIDO -->
         <div class="div_content">
 
-            <!-- interpolacion y binding -->
-            <div class="main_content">
+            <!-- ngIf y ngFor -->
+            <section class="main_content" id="modules">
 
                 <!-- descripcion de la sesion -->
                 <section class="box_description">
-                    <h2>18. Interpolacion y Binding</h2>
+                    <h2>22. NgIf y NgFor</h2>
 
                     <div class="line_titles"></div>
 
                     <p>
-                        En este aparatdo aprenderermos sobre los tipos de
-                        <a href="#inter" target="_blank">interpolacion</a>
-                        aplicables a <strong>strings numbers e images</strong>
-                        Tambien halaremos sobre el
-                        <a href="#bin" target="_blank">binding</a> de
-                        <strong>Angular</strong> y como implementarlo.
+                        <strong>Angular</strong> nos ofrece las directivas estructurales
+                        <strong>ngIf</strong> y <strong>ngFor</strong> Estas nos permiten
+                        manipular <strong>DOM</strong> para añadir o eliminar un elemento
+                        o crear una estructura repetitiva de un elemento.
                     </p>
                 </section>
 
-                <!-- 01. interpolacion basica -->
-                <section class="sect_content" id="inter">
-                    <h4>01. Interpolacion basica</h4>
+                <!-- 01. cambiando el estado de un ngIf -->
+                <section class="sect_content">
+                    <h4>01. Cambiando el estado de un ngIf</h4>
 
                     <div class="box_img">
-                        <img src="./assets/images/interbinding/x01.png" alt="modulo">
+                        <img src="./assets/images/ng/n01.png" alt="modulo">
                     </div>
                 </section>
 
@@ -89,7 +88,43 @@
                     <h4>02. Validando el codigo</h4>
 
                     <div class="box_img">
-                        <img src="./assets/images/interbinding/x02.png" alt="modulo">
+                        <img src="./assets/images/ng/n03.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 03. ejecutando metodos con ngIf -->
+                <section class="sect_content">
+                    <h4>03. Ejecutando metodos con ngIf</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/ng/n02.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 04. validando el codigo -->
+                <section class="sect_content">
+                    <h4>04. Validando el codigo</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/ng/n03.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 05. ejecutando ngIf con else -->
+                <section class="sect_content">
+                    <h4>05. Ejecutando ngIf con else</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/ng/n04.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 06. validando el codigo -->
+                <section class="sect_content">
+                    <h4>06. Validando el codigo</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/ng/n05.png" alt="modulo">
                     </div>
                 </section>
 
@@ -97,12 +132,12 @@
                     -------------------- End --------------------
                 </div>
 
-                <!-- 01. interpolacion de number -->
+                <!-- 01. implementando el ngFor -->
                 <section class="sect_content">
-                    <h4>01. Interpolacion de images</h4>
+                    <h4>01. Implementando el ngFor</h4>
 
                     <div class="box_img">
-                        <img src="./assets/images/interbinding/i03.png" alt="modulo">
+                        <img src="./assets/images/ng/f02.png" alt="modulo">
                     </div>
                 </section>
 
@@ -111,98 +146,34 @@
                     <h4>02. Validando el codigo</h4>
 
                     <div class="box_img">
-                        <img src="./assets/images/interbinding/i04.png" alt="modulo">
+                        <img src="./assets/images/ng/f03.png" alt="modulo">
                     </div>
                 </section>
 
-                <div class="line_endsession">
-                    -------------------- End --------------------
-                </div>
-
-                <!-- 01. interpolacion de metodos -->
+                <!-- 03. ngFor con ngIf -->
                 <section class="sect_content">
-                    <h4>01. Interpolacion de metodos</h4>
+                    <h4>03. NgFor con ngIf</h4>
 
                     <div class="box_img">
-                        <img src="./assets/images/interbinding/x04.png" alt="modulo">
+                        <img src="./assets/images/ng/f04.png" alt="modulo">
                     </div>
                 </section>
 
-                <!-- 02. validando el codigo -->
+                <!-- 04. validando el codigo -->
                 <section class="sect_content">
-                    <h4>02. Validando el codigo</h4>
+                    <h4>04. Validando el codigo</h4>
 
                     <div class="box_img">
-                        <img src="./assets/images/interbinding/x05.png" alt="modulo">
+                        <img src="./assets/images/ng/f05.png" alt="modulo">
                     </div>
                 </section>
 
-                <div class="line_endsession">
-                    -------------------- End --------------------
-                </div>
-
-                <!-- 01. binding con FormsModule -->
-                <section class="sect_content" id="bin">
-                    <h4>01. Binding con FormsModule</h4>
-
-                    <div class="box_img">
-                        <img src="./assets/images/interbinding/d01.png" alt="modulo">
-                    </div>
-                </section>
-
-                <!-- 02. implementacion de ngModel -->
-                <section class="sect_content">
-                    <h4>02. Implementacion de ngModel</h4>
-
-                    <div class="box_img">
-                        <img src="./assets/images/interbinding/d02.png" alt="modulo">
-                    </div>
-                </section>
-
-                <!-- 03. validando el codigo -->
-                <section class="sect_content">
-                    <h4>03. Validando el codigo</h4>
-
-                    <div class="box_img">
-                        <img src="./assets/images/interbinding/d03.png" alt="modulo">
-                    </div>
-                </section>
-
-                <div class="line_endsession">
-                    -------------------- End --------------------
-                </div>
-
-                <!-- 01. binding con evento keyup -->
-                <section class="sect_content" id="bin">
-                    <h4>01. Binding con evento keyup</h4>
-
-                    <div class="box_img">
-                        <img src="./assets/images/interbinding/z01.png" alt="modulo">
-                    </div>
-                </section>
-
-                <!-- 02. binding con evento input -->
-                <section class="sect_content">
-                    <h4>02. Binding con evento input</h4>
-
-                    <div class="box_img">
-                        <img src="./assets/images/interbinding/z03.png" alt="modulo">
-                    </div>
-                </section>
-
-                <!-- 03. validando el codigo -->
-                <section class="sect_content">
-                    <h4>03. Validando el codigo</h4>
-
-                    <div class="box_img">
-                        <img src="./assets/images/interbinding/z04.png" alt="modulo">
-                    </div>
-                </section>
-
-                <div class="line_endsession">End Interpolacion & Binding</div>
-            </div>
+                <div class="line_endsession">End NgIf y NgFor</div>
+            </section>
         </div>
     </main>
+
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
