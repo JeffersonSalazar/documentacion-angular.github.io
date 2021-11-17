@@ -36,7 +36,7 @@
                 <li><a href="componentes.html" target="_blank">03. Componentes</a></li>
                 <li><a href="routing.html" target="_blank">04. Routing</a></li>
                 <li><a href="leazy_loading.html" target="_blank">05. Lazy loading</a></li>
-                <li><a href="http_auth.html" target="_blank">06. Http auth mongo</a></li>
+                <li><a href="http_auth.html" target="_blank">06. Http auth</a></li>
                 <li><a href="reactive_forms.html" target="_blank">07. Reactive forms</a></li>
                 <li><a href="reactive_validations.html" target="_blank">08. Reactive validations</a></li>
                 <li><a href="interfaces.html" target="_blank">09. Interfaces</a></li>
@@ -48,9 +48,12 @@
                 <li><a href="template_validations.html" target="_blank">16. Template validations</a></li>
                 <li><a href="clases.html" target="_blank">17. Clases</a></li>
                 <li><a href="interpolacion.html" target="_blank">18. Interpolacion</a></li>
-                <li><a href="input_output.html" target="_blank">19. @Input y @Output</a></li>
+                <li><a href="input_output.html" target="_blank">19. @Input @Output</a></li>
                 <li><a href="pipes.html" target="_blank">20. Pipes</a></li>
                 <li><a href="sass.html" target="_blank">21. Sass</a></li>
+                <li><a href="ngif_ngfor.html" target="_blank">22. Directivas</a></li>
+                <li><a href="ngStyle.html" target="_blank">23. NgStyle</a></li>
+                <li><a href="sweet_alert.html" target="_blank">24. Sweet alert</a></li>
             </ul>
         </nav>
 
@@ -72,9 +75,12 @@
                         metodos <strong>post get delete y update</strong> para interactuar
                         con la misma. En este apartado aprenderemos sobre
                         <strong>HttpClientModule y HttpClient</strong> crearemos los
-                        <strong>endPoints</strong> <a href="#signup" target="_blank">signupUser</a>
-                        y <a href="#signin" target="_blank">signinUser</a> a los que implementaremos
-                        una <strong>interface</strong> haciendo uso de los <strong>servicios</strong>
+                        <strong>endPoints</strong>
+                        <a href="#add" target="_blank">addUsers</a>
+                        <a href="#get" target="_blank">getUsers</a>
+                        <a href="#gid" target="_blank">getUserid</a>
+                        <a href="#del" target="_blank">deleteUser</a>
+                        <a href="#upd" target="_blank">updateUser</a>
                     </p>
                 </section>
 
@@ -125,7 +131,7 @@
                 </div>
 
                 <!-- 01. metodo addUser -->
-                <section class="sect_content">
+                <section class="sect_content" id="add">
                     <h4>01. metodo addUser</h4>
 
                     <div class="box_img">
@@ -183,7 +189,7 @@
                 </div>
 
                 <!-- 01. metodo getUsers -->
-                <section class="sect_content">
+                <section class="sect_content" id="get">
                     <h4>01. metodo getUsers</h4>
 
                     <div class="box_img">
@@ -202,7 +208,7 @@
 
                 <!-- 03. metodo data -->
                 <section class="sect_content">
-                    <h4>03. Metodo data: Evento definido en el btn del form</h4>
+                    <h4>03. Metodo data: Evento ejecutado por el ngOnInit</h4>
 
                     <div class="box_img">
                         <img src="./assets/images/httpcrud/g03.png" alt="modulo">
@@ -232,7 +238,7 @@
                 </div>
 
                 <!-- 01. metodo getUserId -->
-                <section class="sect_content">
+                <section class="sect_content" id="gid">
                     <h4>01. metodo getUserId</h4>
 
                     <div class="box_img">
@@ -290,7 +296,7 @@
                 </div>
 
                 <!-- 01. metodo deleteUser -->
-                <section class="sect_content">
+                <section class="sect_content" id="del">
                     <h4>01. metodo deleteUser</h4>
 
                     <div class="box_img">
@@ -339,7 +345,7 @@
                 </div>
 
                 <!-- 01. metodo updateUser -->
-                <section class="sect_content">
+                <section class="sect_content" id="upd">
                     <h4>01. metodo updateUser</h4>
 
                     <div class="box_img">
