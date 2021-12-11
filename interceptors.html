@@ -80,15 +80,8 @@
                 </section>
 
                 <!-- 01. carpeta interceptors -->
-                <section class="sect_content" id="carp">
+                <section class="sect_content">
                     <h4>01. Carpeta Interceptors</h4>
-
-                    <p>
-                        Dentro de la <strong>carpeta app</strong> creamos la
-                        carpeta que para el ejemplo nombre <strong>interceptors</strong>
-                        dentro de esta generaremos todos los <strong>interceptores</strong>
-                        necesarios para nuestro proyecto.
-                    </p>
 
                     <div class="box_img">
                         <img src="./assets/images/interceptors/01.png" alt="modulo">
@@ -96,18 +89,8 @@
                 </section>
 
                 <!-- 02. creando un Interceptor -->
-                <section class="sect_content" id="crea">
+                <section class="sect_content">
                     <h4>02. Creando un Interceptor</h4>
-
-                    <p>
-                        Abramos la consola de <strong>VSC</strong> e ingresemos a la
-                        <a href="crearPoryecto.html#ingresa" target="_blank">carpeta proyecto</a>
-                        una vez dentro ejecutamos el comando
-                        <strong>ng g s interceptors/token</strong> esta linea
-                        genera un <strong>servicio</strong> dentro de la
-                        <a href="#carp" target="_blank">carpeta interceptors</a>
-                        y nos confirma que 2 archivos fueron creados.
-                    </p>
 
                     <div class="box_img">
                         <img src="./assets/images/interceptors/02.png" alt="modulo">
@@ -118,13 +101,6 @@
                 <section class="sect_content">
                     <h4>03. Archivos creados</h4>
 
-                    <p>
-                        Como vemos, si seguimos la ruta proporsionada por la
-                        consola de <strong>VSC</strong> podemos observar los
-                        2 archivos que creamos dentro de la
-                        <a href="#crea" target="_blank">carpeta interceptors</a>
-                    </p>
-
                     <div class="box_img">
                         <img src="./assets/images/interceptors/03.png" alt="modulo">
                     </div>
@@ -134,30 +110,14 @@
                 <section class="sect_content">
                     <h4>04. Archivo token.service.ts</h4>
 
-                    <p>
-                        los <strong>interceptors</strong> se crean desde la consola
-                        de <strong>VSC</strong> como un
-                        <a href="services.html" target="_blank">servicio</a>
-                        por ende, si abrimos el archivo podemos ver que su
-                        estructura corresponde a la de un <strong>servicio</strong>
-                        tradicional. Este posteriormente lo vamos a transformar en un
-                        <a href="#crea" target="_blank">interceptors</a>
-                    </p>
-
                     <div class="box_img">
                         <img src="./assets/images/interceptors/04.png" alt="modulo">
                     </div>
                 </section>
 
-                <!-- 05. De servicio a interceptor -->
-                <section class="sect_content" id="change">
+                <!-- 05. de servicio a interceptor -->
+                <section class="sect_content">
                     <h4>05. De servicio a Interceptor</h4>
-
-                    <p>
-                        Como vemos debemos realizar algunos ajustes e importaciones
-                        pero lo mas reelevante en su <strong>clave</strong>
-                        (identificador del archivo) y su metodo <strong>intercept</strong>
-                    </p>
 
                     <div class="box_img">
                         <img src="./assets/images/interceptors/05.png" alt="modulo">
@@ -168,102 +128,195 @@
                 <section class="sect_content">
                     <h4>06. App.module.ts con Interceptors</h4>
 
-                    <p>
-                        Por lo general a lo alrgo de nuestra aplicacion estamos constantemente
-                        realizando peticiones al <strong>servidor</strong> es por eso que los
-                        <a href="#change" target="_blank">interceptors</a> deben implementarse
-                        en el <strong>app.module.ts</strong> de esta manera logramos que estos
-                        abarquen todas las solicitudes realizadas por un usuario.
-                    </p>
-
                     <div class="box_img">
                         <img src="./assets/images/interceptors/06.png" alt="modulo">
                     </div>
                 </section>
 
-                <!-- 07. Interceptores y servicios -->
-                <section class="sect_content" id="veri">
-                    <h4>07. Interceptores y servicios</h4>
+                <div class="line_endsession">
+                    -------------------- End --------------------
+                </div>
 
-                    <p>
-                        Podemos crear un <a href="services.html#servicio" target="_blank">servicio</a>
-                        para interactuar con los <strong>interceptors</strong> en este ejemplo
-                        creamos un metodo de tipo <strong>string</strong> que se encargara de verificar
-                        si tenemos el <strong>token de acceso</strong> en local storage, finalmente
-                        hacemos un <strong>return</strong> de esa respuesta.
-                    </p>
+                <!-- 01. intercepcion de errores auth-->
+                <section class="sect_content">
+                    <h4>01. Intercepcion de errores auth</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/interceptors/e01.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 02. definiendo la caja de errores -->
+                <section class="sect_content">
+                    <h4>02. Definiendo la caja de errores en la vista</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/interceptors/e02.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 03. agregando el token a la peticion -->
+                <section class="sect_content">
+                    <h4>03. Agregando el token a la peticion</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/interceptors/e03.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 04. validando el codigo -->
+                <section class="sect_content">
+                    <h4>04. Validando el codigo</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/interceptors/e04.png" alt="modulo">
+                    </div>
+                </section>
+
+                <div class="line_endsession">
+                    -------------------- End --------------------
+                </div>
+
+                <!-- 01. añadiendo cabeceras -->
+                <section class="sect_content">
+                    <h4>01. Añadiendo cabeceras a solicitudes</h4>
 
                     <div class="box_img">
                         <img src="./assets/images/interceptors/07.png" alt="modulo">
                     </div>
                 </section>
 
-                <!-- 08. implementando el servicio -->
+                <!-- 02. implementando el servicio -->
                 <section class="sect_content">
-                    <h4>08. Implementando el servicio</h4>
-
-                    <p>
-                        <a href="services.html#import" target="_blank">importemos e inyectemos</a>
-                        el <strong>servicio</strong> en el <strong>interceptor</strong> dentro
-                        del metodo <strong>intercept</strong> llamemos la inyeccion de este
-                        y accedamos a su metodo <a href="#veri" target="_blank">token</a>
-                        el valor que tenga local storage en ese momento lo almacenamos en una variable.
-                    </p>
+                    <h4>02. Implementando el servicio</h4>
 
                     <div class="box_img">
                         <img src="./assets/images/interceptors/08.png" alt="modulo">
                     </div>
                 </section>
 
-                <!-- 09. agregando el token a la peticion -->
+                <!-- 03. agregando el token a la peticion -->
                 <section class="sect_content">
-                    <h4>09. Agregando el token a la peticion</h4>
-
-                    <p>
-                        Haciendo uso de la propiedad <strong>req.clone</strong> definimos
-                        <strong>setHeaders</strong> este recibe 2 parametros la
-                        <strong>Autorizacion</strong> y el <strong>Bearer token</strong>
-                        Finalmente almcenamos en una variable que posterirormente pasamos
-                        como para el <strong>return</strong> de <strong>next.handle</strong>
-                    </p>
+                    <h4>03. Agregando el token a la peticion</h4>
 
                     <div class="box_img">
                         <img src="./assets/images/interceptors/08.1.png" alt="modulo">
                     </div>
                 </section>
 
-                <!-- 10. obtener usuarios -->
+                <!-- 04. obtener usuarios -->
                 <section class="sect_content">
-                    <h4>10. Obtener usuarios</h4>
-
-                    <p>
-                        Este metodo lo hemos definido en el
-                        <strong>home.component.ts</strong> el cual trae los
-                        usuarios de la base de datos una vez el usuario lo
-                        solicite, para conocer el proceso completo tenemos el
-                        apartado de como crear un
-                        <a href="http.html#crud" target="_blank">crud</a> con
-                        el protocolo <strong>htpp</strong>
-                    </p>
+                    <h4>04. Obtener usuarios</h4>
 
                     <div class="box_img">
                         <img src="./assets/images/interceptors/08.2.png" alt="modulo">
                     </div>
                 </section>
 
-                <!-- 11. validando el codigo -->
+                <!-- 05. validando el codigo -->
                 <section class="sect_content">
-                    <h4>11. Validando el codigo</h4>
-
-                    <p>
-                        Abramos el navegador, en pantalla vemos nuestro
-                        <strong>button</strong> al hacer <strong>click</strong>
-                        en el,
-                        <!-- De no ser asi, revisa los pasos nuevamente. -->
-                    </p>
+                    <h4>05. Validando el codigo</h4>
 
                     <div class="box_img">
                         <img src="./assets/images/interceptors/09.png" alt="modulo">
+                    </div>
+                </section>
+
+                <div class="line_endsession">
+                    -------------------- End --------------------
+                </div>
+
+                <!-- 01. error de conexion con la api -->
+                <section class="sect_content">
+                    <h4>01. Error de conexion con la api</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/interceptors/u01.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 02. funcion control de errores -->
+                <section class="sect_content">
+                    <h4>02. Funcion control de errores</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/interceptors/u02.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 03. definiendo el error -->
+                <section class="sect_content">
+                    <h4>03. Definiendo el error en la logica del componente</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/interceptors/u03.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 04. validando el codigo -->
+                <section class="sect_content">
+                    <h4>04. Validando el codigo</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/interceptors/u04.png" alt="modulo">
+                    </div>
+                </section>
+
+                <div class="line_endsession">
+                    -------------------- End --------------------
+                </div>
+
+                <!-- 01. componente spinner -->
+                <section class="sect_content">
+                    <h4>01. Componente spinner</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/interceptors/s01.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 02. servicio spinner -->
+                <section class="sect_content">
+                    <h4>02. Servicio spinner</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/interceptors/s02.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 03. implementando el servicio -->
+                <section class="sect_content">
+                    <h4>03. Implementando el servicio en la logica</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/interceptors/s03.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 04. interceptor spinner -->
+                <section class="sect_content">
+                    <h4>04. Interceptor spinner</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/interceptors/s04.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 05. implementando el interceptor -->
+                <section class="sect_content">
+                    <h4>05. Implementando el interceptor en app.module</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/interceptors/s05.png" alt="modulo">
+                    </div>
+                </section>
+
+                <!-- 06. validando el codigo -->
+                <section class="sect_content">
+                    <h4>06. Validando el codigo</h4>
+
+                    <div class="box_img">
+                        <img src="./assets/images/interceptors/s06.png" alt="modulo">
                     </div>
                 </section>
 
